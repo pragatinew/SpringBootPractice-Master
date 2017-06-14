@@ -18,10 +18,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ComponentScan
 public class SampleController {
 	
-	@RequestMapping("/")
+	@RequestMapping("/hello")
     @ResponseBody
     String home() {
-        return "Hello World!";
+        return "Hello Java From Mac!";
     }
 
     public static void main(String[] args) throws Exception {
